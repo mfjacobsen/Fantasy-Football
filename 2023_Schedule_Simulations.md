@@ -29,7 +29,7 @@ occured.
 
 ### Just The Regular Season
 
-Unofortunately, this analysis is only for the regular season. The reason I can't
+Unfortunately, this analysis is only for the regular season. The reason I can't
 include the playoffs is because of the first-round byes that four teams have. 
 These byes mean that I don't have team point totals for four teams from week
 fifteen. When we simulate a new schedule, those four teams that had byes might
@@ -59,4 +59,17 @@ a fairly accurate picture of the 'true' distribution.
 It's been a few months since the season ended, so as a reminder, here are the 
 final standings from the regular season.
 
-'|   rank | username           |   points_for |   points_against | record   |\n|-------:|:-------------------|-------------:|-----------------:|:---------|\n|      1 | pacc               |      2008.96 |          1765.22 | 9-5      |\n|      2 | thezirconisdragon  |      2000.73 |          1895.99 | 9-5      |\n|      3 | herbietime         |      2114.47 |          1990.59 | 8-6      |\n|      4 | alecwilson         |      2107.2  |          1854.36 | 8-6      |\n|      5 | empireyikesback    |      1798.42 |          1662.93 | 8-6      |\n|      6 | burgertownthicnred |      1769.67 |          1778.89 | 8-6      |\n|      7 | therealfergus      |      1814.81 |          2027.19 | 6-8      |\n|      8 | mackjyers21        |      1730.29 |          1818.54 | 6-8      |\n|      9 | shakylegs          |      1650.25 |          1838.57 | 6-8      |\n|     10 | tonygordzilla22    |      1625.72 |          1735.48 | 6-8      |\n|     11 | black8yellownation |      1495.6  |          1615.37 | 6-8      |\n|     12 | namebrant          |      1645.83 |          1778.82 | 4-10     |'
+|   rank | username           |   points_for |   points_against | record   |
+|-------:|:-------------------|-------------:|-----------------:|:---------|
+|      1 | pacc               |      2008.96 |          1765.22 | 9-5      |
+|      2 | thezirconisdragon  |      2000.73 |          1895.99 | 9-5      |
+|      3 | herbietime         |      2114.47 |          1990.59 | 8-6      |
+|      4 | alecwilson         |      2107.2  |          1854.36 | 8-6      |
+|      5 | empireyikesback    |      1798.42 |          1662.93 | 8-6      |
+|      6 | burgertownthicnred |      1769.67 |          1778.89 | 8-6      |
+|      7 | therealfergus      |      1814.81 |          2027.19 | 6-8      |
+|      8 | mackjyers21        |      1730.29 |          1818.54 | 6-8      |
+|      9 | shakylegs          |      1650.25 |          1838.57 | 6-8      |
+|     10 | tonygordzilla22    |      1625.72 |          1735.48 | 6-8      |
+|     11 | black8yellownation |      1495.6  |          1615.37 | 6-8      |
+|     12 | namebrant          |      1645.83 |          1778.82 | 4-10     |
