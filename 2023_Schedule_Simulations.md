@@ -795,8 +795,8 @@ For you visual minded guys, here's a chart of the previous table:
 
 <iframe
   src="Visualizations/2023Probabilities.html"
-  width="800"
-  height="400"
+  width="850"
+  height="850"
   frameborder="0"
 ></iframe>
 
