@@ -124,21 +124,6 @@ td:first-child {
       <th>11</th>
       <th>12</th>
     </tr>
-    <tr>
-      <th>username</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
   </thead>
   <tbody>
     <tr>
