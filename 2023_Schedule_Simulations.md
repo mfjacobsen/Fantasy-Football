@@ -209,7 +209,7 @@ herbietime placed first in 5,191,110 simulations, whereas tonygordzilla22 placed
  first only 36 times. Some interesting things to note:
 
  * Every team except herbietime could have placed last
- * every team except blackandyelllownation could have placed first
+ * Every team except blackandyelllownation could have placed first
 
 There could be schedules were herbietime placed last or blackandyellownation
 placed first. However, they didn't occur in the 10 million simulations performed
@@ -424,6 +424,9 @@ also highlighted the ranking that each team actually had in the 2023 season.
 Now, we can see the herbietime had about a 51.9% chance of taking first place, 
 a 24.6% chance of taking second, and a 12.6% chance of taking third, which he
 did. 
+
+* The first column is each team's chance of placing first
+* The last column is each team's chance of placing last
 
 <style type="text/css">
 #T_8d0e4_row0_col2, #T_8d0e4_row1_col1, #T_8d0e4_row2_col0, #T_8d0e4_row3_col3, #T_8d0e4_row4_col4, #T_8d0e4_row5_col6, #T_8d0e4_row6_col7, #T_8d0e4_row7_col5, #T_8d0e4_row8_col8, #T_8d0e4_row9_col11, #T_8d0e4_row10_col9, #T_8d0e4_row11_col10 {
@@ -646,5 +649,148 @@ did.
     </tr>
   </tbody>
 </table>
+
+### Playoff Chances
+
+This table aggregates the previous one into a more readable format. Each column
+is the percentage of simulations where each team placed better, equal, or worse
+than their actual ranking for the season. The last column in the percentage of
+simulations where they placed in the top six teams. 
+
+Here was can really see who got lucky and unlucky with the schedule. 
+
+* Pacc took first place, a 13% chance, but he had an 87% chance of scoring worse
+than that.
+* Namebrant took last place, a 7% chance, but he had a 7.8% chance, and had a 
+92.% chance of scoring better (better luck next year Brant).
+* The playoff teams were about as expected except for burgertownthicnred 
+sliding into the playoffs with a 30.5% chance and kicking therealfergus to the
+losers bracket despite his 62.8% chance.
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>rank</th>
+      <th>username</th>
+      <th>Better</th>
+      <th>Equal</th>
+      <th>Worse</th>
+      <th>Playoff</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>pacc</td>
+      <td>0.00</td>
+      <td>13.01</td>
+      <td>86.99</td>
+      <td>96.59</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>thezirconisdragon</td>
+      <td>20.71</td>
+      <td>21.78</td>
+      <td>57.51</td>
+      <td>96.14</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>herbietime</td>
+      <td>76.61</td>
+      <td>12.61</td>
+      <td>10.78</td>
+      <td>99.52</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>alecwilson</td>
+      <td>59.47</td>
+      <td>20.05</td>
+      <td>20.48</td>
+      <td>96.26</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>empireyikesback</td>
+      <td>23.23</td>
+      <td>22.25</td>
+      <td>54.51</td>
+      <td>68.50</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>6</td>
+      <td>burgertownthicnred</td>
+      <td>14.49</td>
+      <td>15.96</td>
+      <td>69.55</td>
+      <td>30.45</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>7</td>
+      <td>therealfergus</td>
+      <td>62.76</td>
+      <td>16.09</td>
+      <td>21.15</td>
+      <td>62.76</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8</td>
+      <td>mackjyers21</td>
+      <td>55.01</td>
+      <td>21.39</td>
+      <td>23.59</td>
+      <td>34.90</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>9</td>
+      <td>shakylegs</td>
+      <td>30.40</td>
+      <td>26.83</td>
+      <td>42.77</td>
+      <td>7.47</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10</td>
+      <td>tonygordzilla22</td>
+      <td>27.64</td>
+      <td>24.27</td>
+      <td>48.09</td>
+      <td>2.24</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>11</td>
+      <td>black8yellownation</td>
+      <td>7.98</td>
+      <td>14.62</td>
+      <td>77.40</td>
+      <td>0.12</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>12</td>
+      <td>namebrant</td>
+      <td>92.17</td>
+      <td>7.83</td>
+      <td>0.00</td>
+      <td>5.04</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 
