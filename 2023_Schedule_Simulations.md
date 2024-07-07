@@ -9,7 +9,6 @@ table {
 }
 
 th, td {
-  border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
 }
@@ -204,7 +203,7 @@ rankings for each. Below are the results. These are the raw counts from the
 10 million simulations. For example, herbietime placed first in 5,191,110 
 simulations, whereas tonygordzilla22 placed first only 36 times.
 
-<table border="1" class="dataframe_stickycol">
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
