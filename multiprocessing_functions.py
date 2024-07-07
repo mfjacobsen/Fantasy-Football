@@ -91,22 +91,36 @@ def get_ranking(schedule, owners, matchup_to_roster_id, matchups, owners_points)
 
     return df["rank"]
 
-def simulate_schedules(all_weeks, similar_weeks, owners, matchup_to_roster_id, matchups, owners_points, total_records, ranking_counts, num_sims, progress_queue):
+def simulate_schedules(all_weeks, similar_weeks, owners, matchup_to_roster_id, matchups, owners_points, total_records, ranking_counts, num_sims):
+
+    temp_records = {username: np.zeros(12,dtype=int) for username in 
+                    owners["username"]}
+    temp_ranking = {}
 
     for i in range(num_sims):
 
         ranks = get_ranking(generate_schedule(all_weeks, similar_weeks), owners, matchup_to_roster_id, matchups, owners_points)
 
-        # Store each user's rank
+        # Store each user's rank in the temporary records dict
         for username, rank in ranks.items():
-            total_records[username][rank-1] += 1
+            temp_records[username][rank-1] += 1
 
-        # Stores the rank order for 
+        # Stores the rank order in the temporary ranking dic
         ranks_order = tuple(ranks.index)
 
-        if ranks_order in ranking_counts:
-            ranking_counts[ranks_order] += 1
+        if ranks_order in temp_ranking:
+            temp_ranking[ranks_order] += 1
         else:
-            ranking_counts[ranks_order] = 1
-        
-        progress_queue.put(1)
+            temp_ranking[ranks_order] = 1
+
+    for username, record in temp_records.items():
+        for i in range(12):
+            total_records[username][i] += record[i]
+
+    for rank_order, count in temp_ranking.items():
+        if rank_order in ranking_counts:
+            ranking_counts[rank_order] += count
+        else:
+            ranking_counts[rank_order] = count
+
+
