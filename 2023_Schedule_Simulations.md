@@ -81,19 +81,246 @@ rankings for each. Below are the results. These are the raw counts from the
 10 million simulations. For example, herbietime placed first in 5,191,110 
 simulations, whereas tonygordzilla22 placed first only 36 times.
 
-| username           |       1 |       2 |       3 |       4 |       5 |       6 |       7 |       8 |       9 |      10 |      11 |      12 |
-|:-------------------|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|
-| herbietime         | 5191110 | 2466258 | 1263125 |  638384 |  281700 |  108655 |   38014 |   10242 |    2192 |     300 |      20 |       0 |
-| thezirconisdragon  | 2074697 | 2171155 | 2116925 | 1910464 |  908055 |  432684 |  211870 |  104144 |   44943 |   18354 |    6032 |     677 |
-| pacc               | 1301049 | 2361512 | 2587268 | 2017290 |  952164 |  439508 |  200778 |   89029 |   34619 |   12850 |    3618 |     315 |
-| alecwilson         | 1209358 | 2309450 | 2423388 | 2001998 | 1123941 |  556264 |  243843 |   95928 |   28520 |    6519 |     771 |      20 |
-| empireyikesback    |  100340 |  300327 |  652351 | 1275076 | 2215778 | 2300439 | 1551716 |  906495 |  443471 |  187408 |   59043 |    7556 |
-| therealfergus      |   79027 |  231050 |  524234 | 1112273 | 2232044 | 2101218 | 1603096 | 1077066 |  611100 |  301181 |  112416 |   15295 |
-| mackjyers21        |   29770 |   97803 |  239929 |  529663 | 1024433 | 1574398 | 2006172 | 2136204 | 1266054 |  688986 |  334023 |   72565 |
-| burgertownthicnred |   12441 |   50768 |  148201 |  374902 |  863380 | 1594773 | 2346878 | 2212003 | 1351781 |  705852 |  291124 |   47897 |
-| shakylegs          |    1832 |    8321 |   27895 |   79198 |  204288 |  428686 |  818694 | 1486333 | 2669906 | 2335301 | 1514670 |  424876 |
-| namebrant          |     340 |    2944 |   13802 |   46325 |  136744 |  302059 |  591635 | 1072327 | 1910769 | 2822535 | 2315996 |  784524 |
-| tonygordzilla22    |      36 |     403 |    2825 |   14000 |   54992 |  151888 |  361161 |  736419 | 1446341 | 2425927 | 3904713 |  901295 |
-| black8yellownation |       0 |       9 |      57 |     427 |    2481 |    9428 |   26143 |   73810 |  190304 |  494787 | 1457574 | 7744980 |
+<style>
+.dataframe_stickycol {
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Sticky column style */
+th:first-child,
+td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+</style>
+
+<table border="1" class="dataframe_stickycol">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+      <th>10</th>
+      <th>11</th>
+      <th>12</th>
+    </tr>
+    <tr>
+      <th>username</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>herbietime</th>
+      <td>5191110</td>
+      <td>2466258</td>
+      <td>1263125</td>
+      <td>638384</td>
+      <td>281700</td>
+      <td>108655</td>
+      <td>38014</td>
+      <td>10242</td>
+      <td>2192</td>
+      <td>300</td>
+      <td>20</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>thezirconisdragon</th>
+      <td>2074697</td>
+      <td>2171155</td>
+      <td>2116925</td>
+      <td>1910464</td>
+      <td>908055</td>
+      <td>432684</td>
+      <td>211870</td>
+      <td>104144</td>
+      <td>44943</td>
+      <td>18354</td>
+      <td>6032</td>
+      <td>677</td>
+    </tr>
+    <tr>
+      <th>pacc</th>
+      <td>1301049</td>
+      <td>2361512</td>
+      <td>2587268</td>
+      <td>2017290</td>
+      <td>952164</td>
+      <td>439508</td>
+      <td>200778</td>
+      <td>89029</td>
+      <td>34619</td>
+      <td>12850</td>
+      <td>3618</td>
+      <td>315</td>
+    </tr>
+    <tr>
+      <th>alecwilson</th>
+      <td>1209358</td>
+      <td>2309450</td>
+      <td>2423388</td>
+      <td>2001998</td>
+      <td>1123941</td>
+      <td>556264</td>
+      <td>243843</td>
+      <td>95928</td>
+      <td>28520</td>
+      <td>6519</td>
+      <td>771</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <th>empireyikesback</th>
+      <td>100340</td>
+      <td>300327</td>
+      <td>652351</td>
+      <td>1275076</td>
+      <td>2215778</td>
+      <td>2300439</td>
+      <td>1551716</td>
+      <td>906495</td>
+      <td>443471</td>
+      <td>187408</td>
+      <td>59043</td>
+      <td>7556</td>
+    </tr>
+    <tr>
+      <th>therealfergus</th>
+      <td>79027</td>
+      <td>231050</td>
+      <td>524234</td>
+      <td>1112273</td>
+      <td>2232044</td>
+      <td>2101218</td>
+      <td>1603096</td>
+      <td>1077066</td>
+      <td>611100</td>
+      <td>301181</td>
+      <td>112416</td>
+      <td>15295</td>
+    </tr>
+    <tr>
+      <th>mackjyers21</th>
+      <td>29770</td>
+      <td>97803</td>
+      <td>239929</td>
+      <td>529663</td>
+      <td>1024433</td>
+      <td>1574398</td>
+      <td>2006172</td>
+      <td>2136204</td>
+      <td>1266054</td>
+      <td>688986</td>
+      <td>334023</td>
+      <td>72565</td>
+    </tr>
+    <tr>
+      <th>burgertownthicnred</th>
+      <td>12441</td>
+      <td>50768</td>
+      <td>148201</td>
+      <td>374902</td>
+      <td>863380</td>
+      <td>1594773</td>
+      <td>2346878</td>
+      <td>2212003</td>
+      <td>1351781</td>
+      <td>705852</td>
+      <td>291124</td>
+      <td>47897</td>
+    </tr>
+    <tr>
+      <th>shakylegs</th>
+      <td>1832</td>
+      <td>8321</td>
+      <td>27895</td>
+      <td>79198</td>
+      <td>204288</td>
+      <td>428686</td>
+      <td>818694</td>
+      <td>1486333</td>
+      <td>2669906</td>
+      <td>2335301</td>
+      <td>1514670</td>
+      <td>424876</td>
+    </tr>
+    <tr>
+      <th>namebrant</th>
+      <td>340</td>
+      <td>2944</td>
+      <td>13802</td>
+      <td>46325</td>
+      <td>136744</td>
+      <td>302059</td>
+      <td>591635</td>
+      <td>1072327</td>
+      <td>1910769</td>
+      <td>2822535</td>
+      <td>2315996</td>
+      <td>784524</td>
+    </tr>
+    <tr>
+      <th>tonygordzilla22</th>
+      <td>36</td>
+      <td>403</td>
+      <td>2825</td>
+      <td>14000</td>
+      <td>54992</td>
+      <td>151888</td>
+      <td>361161</td>
+      <td>736419</td>
+      <td>1446341</td>
+      <td>2425927</td>
+      <td>3904713</td>
+      <td>901295</td>
+    </tr>
+    <tr>
+      <th>black8yellownation</th>
+      <td>0</td>
+      <td>9</td>
+      <td>57</td>
+      <td>427</td>
+      <td>2481</td>
+      <td>9428</td>
+      <td>26143</td>
+      <td>73810</td>
+      <td>190304</td>
+      <td>494787</td>
+      <td>1457574</td>
+      <td>7744980</td>
+    </tr>
+  </tbody>
+</table>
 
 
