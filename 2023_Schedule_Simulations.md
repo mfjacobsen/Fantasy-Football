@@ -96,100 +96,93 @@ final standings from the regular season.
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
+      <th>Rank</th>
       <th>Username</th>
       <th>Points For</th>
       <th>Points Against</th>
       <th>Record</th>
     </tr>
-    <tr>
-      <th>Rank</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
   </thead>
   <tbody>
     <tr>
-      <th>1</th>
+      <td>1</td>
       <td>pacc</td>
       <td>2008.96</td>
       <td>1765.22</td>
       <td>9-5</td>
     </tr>
     <tr>
-      <th>2</th>
+      <td>2</td>
       <td>thezirconisdragon</td>
       <td>2000.73</td>
       <td>1895.99</td>
       <td>9-5</td>
     </tr>
     <tr>
-      <th>3</th>
+      <td>3</td>
       <td>herbietime</td>
       <td>2114.47</td>
       <td>1990.59</td>
       <td>8-6</td>
     </tr>
     <tr>
-      <th>4</th>
+      <td>4</td>
       <td>alecwilson</td>
       <td>2107.20</td>
       <td>1854.36</td>
       <td>8-6</td>
     </tr>
     <tr>
-      <th>5</th>
+      <td>5</td>
       <td>empireyikesback</td>
       <td>1798.42</td>
       <td>1662.93</td>
       <td>8-6</td>
     </tr>
     <tr>
-      <th>6</th>
+      <td>6</td>
       <td>burgertownthicnred</td>
       <td>1769.67</td>
       <td>1778.89</td>
       <td>8-6</td>
     </tr>
     <tr>
-      <th>7</th>
+      <td>7</td>
       <td>therealfergus</td>
       <td>1814.81</td>
       <td>2027.19</td>
       <td>6-8</td>
     </tr>
     <tr>
-      <th>8</th>
+      <td>8</td>
       <td>mackjyers21</td>
       <td>1730.29</td>
       <td>1818.54</td>
       <td>6-8</td>
     </tr>
     <tr>
-      <th>9</th>
+      <td>9</td>
       <td>shakylegs</td>
       <td>1650.25</td>
       <td>1838.57</td>
       <td>6-8</td>
     </tr>
     <tr>
-      <th>10</th>
+      <td>10</td>
       <td>tonygordzilla22</td>
       <td>1625.72</td>
       <td>1735.48</td>
       <td>6-8</td>
     </tr>
     <tr>
-      <th>11</th>
+      <td>11</td>
       <td>black8yellownation</td>
       <td>1495.60</td>
       <td>1615.37</td>
       <td>6-8</td>
     </tr>
     <tr>
-      <th>12</th>
+      <td>12</td>
       <td>namebrant</td>
       <td>1645.83</td>
       <td>1778.82</td>
