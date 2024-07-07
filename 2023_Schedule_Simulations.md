@@ -27,10 +27,12 @@ td:first-child {
   position: sticky;
   left: 0;
   z-index: 1;
-  background-color: #ffffff;
+  background-color: #ffffff; /* Background color for sticky column */
 }
 
 /* Alternating row colors including sticky column */
+tr:nth-child(even) th:first-child,
+tr:nth-child(odd) th:first-child,
 tr:nth-child(even) td:first-child,
 tr:nth-child(odd) td:first-child {
   background-color: inherit; /* Inherit row background color for sticky column */
