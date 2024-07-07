@@ -661,8 +661,8 @@ Here was can really see who got lucky and unlucky with the schedule.
 
 * Pacc took first place, a 13% chance, but he had an 87% chance of scoring worse
 than that.
-* Namebrant took last place, a 7% chance, but he had a 7.8% chance, and had a 
-92.% chance of scoring better (better luck next year Brant).
+* Namebrant took last place, a 7% chance, but he had a 92.% chance of scoring 
+better (better luck next year Brant).
 * The playoff teams were about as expected except for burgertownthicnred 
 sliding into the playoffs with a 30.5% chance and kicking therealfergus to the
 losers bracket despite his 62.8% chance.
@@ -671,8 +671,8 @@ losers bracket despite his 62.8% chance.
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>rank</th>
-      <th>username</th>
+      <th>Rank</th>
+      <th>Username</th>
       <th>Better</th>
       <th>Equal</th>
       <th>Worse</th>
@@ -791,6 +791,14 @@ losers bracket despite his 62.8% chance.
   </tbody>
 </table>
 
+For you visual minded guys, here's a chart of the previous table:
+
+<iframe
+  src="Visualizations/2023Probabilities.html"
+  width="1200"
+  height="600"
+  frameborder="0"
+></iframe>
 
 
 
