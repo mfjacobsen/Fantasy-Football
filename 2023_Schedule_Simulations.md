@@ -30,6 +30,12 @@ td:first-child {
   z-index: 1;
   background-color: #ffffff;
 }
+
+/* Alternating row colors including sticky column */
+tr:nth-child(even) td:first-child,
+tr:nth-child(odd) td:first-child {
+  background-color: inherit; /* Inherit row background color for sticky column */
+}
 </style>
 
 # 2023 Simulated Schedules
