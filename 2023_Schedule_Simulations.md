@@ -1,3 +1,37 @@
+<style>
+.dataframe {
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Alternating row colors */
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray background color */
+}
+tr:nth-child(odd) {
+  background-color: #ffffff; /* White background color */
+}
+
+/* Sticky column style */
+th:first-child,
+td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background-color: #ffffff;
+}
+</style>
+
 # 2023 Simulated Schedules
 
 ### Introduction
@@ -59,20 +93,110 @@ a fairly accurate picture of the 'true' distribution.
 It's been a few months since the season ended, so as a reminder, here are the 
 final standings from the regular season.
 
-|   Rank | Username           |   Points For |   Points Against | Record   |
-|-------:|:-------------------|-------------:|-----------------:|:---------|
-|      1 | pacc               |      2008.96 |          1765.22 | 9-5      |
-|      2 | thezirconisdragon  |      2000.73 |          1895.99 | 9-5      |
-|      3 | herbietime         |      2114.47 |          1990.59 | 8-6      |
-|      4 | alecwilson         |      2107.20 |          1854.36 | 8-6      |
-|      5 | empireyikesback    |      1798.42 |          1662.93 | 8-6      |
-|      6 | burgertownthicnred |      1769.67 |          1778.89 | 8-6      |
-|      7 | therealfergus      |      1814.81 |          2027.19 | 6-8      |
-|      8 | mackjyers21        |      1730.29 |          1818.54 | 6-8      |
-|      9 | shakylegs          |      1650.25 |          1838.57 | 6-8      |
-|     10 | tonygordzilla22    |      1625.72 |          1735.48 | 6-8      |
-|     11 | black8yellownation |      1495.60 |          1615.37 | 6-8      |
-|     12 | namebrant          |      1645.83 |          1778.82 | 4-10     |
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Username</th>
+      <th>Points For</th>
+      <th>Points Against</th>
+      <th>Record</th>
+    </tr>
+    <tr>
+      <th>Rank</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>pacc</td>
+      <td>2008.96</td>
+      <td>1765.22</td>
+      <td>9-5</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>thezirconisdragon</td>
+      <td>2000.73</td>
+      <td>1895.99</td>
+      <td>9-5</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>herbietime</td>
+      <td>2114.47</td>
+      <td>1990.59</td>
+      <td>8-6</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>alecwilson</td>
+      <td>2107.20</td>
+      <td>1854.36</td>
+      <td>8-6</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>empireyikesback</td>
+      <td>1798.42</td>
+      <td>1662.93</td>
+      <td>8-6</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>burgertownthicnred</td>
+      <td>1769.67</td>
+      <td>1778.89</td>
+      <td>8-6</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>therealfergus</td>
+      <td>1814.81</td>
+      <td>2027.19</td>
+      <td>6-8</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>mackjyers21</td>
+      <td>1730.29</td>
+      <td>1818.54</td>
+      <td>6-8</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>shakylegs</td>
+      <td>1650.25</td>
+      <td>1838.57</td>
+      <td>6-8</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>tonygordzilla22</td>
+      <td>1625.72</td>
+      <td>1735.48</td>
+      <td>6-8</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>black8yellownation</td>
+      <td>1495.60</td>
+      <td>1615.37</td>
+      <td>6-8</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>namebrant</td>
+      <td>1645.83</td>
+      <td>1778.82</td>
+      <td>4-10</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 10 Million Simulations
 
@@ -80,32 +204,6 @@ I simulated 10 million possible schedules, and recorded the final season
 rankings for each. Below are the results. These are the raw counts from the 
 10 million simulations. For example, herbietime placed first in 5,191,110 
 simulations, whereas tonygordzilla22 placed first only 36 times.
-
-<style>
-.dataframe_stickycol {
-  overflow-x: auto; /* Enable horizontal scrolling if needed */
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th, td {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-/* Sticky column style */
-th:first-child,
-td:first-child {
-  position: sticky;
-  left: 0;
-  z-index: 1;
-  background-color: #ffffff;
-}
-</style>
 
 <table border="1" class="dataframe_stickycol">
   <thead>
