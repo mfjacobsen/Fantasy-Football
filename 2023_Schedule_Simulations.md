@@ -659,9 +659,9 @@ simulations where they placed in the top six teams.
 
 Here was can really see who got lucky and unlucky with the schedule. 
 
-* Pacc took first place, a 13% chance, but he had an 87% chance of scoring worse
+* Pacc took first place, a 13% chance, but he had an 87% chance of placing worse
 than that.
-* Namebrant took last place, a 7.8% chance, but he had a 92.2% chance of scoring 
+* Namebrant took last place, a 7.8% chance, but he had a 92.2% chance of placing 
 better (better luck next year Brant).
 * The playoff teams were about as expected except for burgertownthicnred 
 sliding into the playoffs with a 30.5% chance and kicking therealfergus to the
