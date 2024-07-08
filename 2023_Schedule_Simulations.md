@@ -1071,6 +1071,6 @@ playoffs.
 
 ### End
 
-We can see that no matter how good or bad your team is, the season schedule can
-still lead to you gettign incredibly lucky or unlucky. Let me know what you guys 
+We can see that no matter how good or bad your team is, you can still get
+incredibly lucky or unlucky with the season schedule. Let me know what you guys 
 think about this analysis and if you want to see anything else.
