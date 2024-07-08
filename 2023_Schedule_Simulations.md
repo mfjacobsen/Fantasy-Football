@@ -661,7 +661,7 @@ Here was can really see who got lucky and unlucky with the schedule.
 
 * Pacc took first place, a 13% chance, but he had an 87% chance of scoring worse
 than that.
-* Namebrant took last place, a 7% chance, but he had a 92.% chance of scoring 
+* Namebrant took last place, a 7.8% chance, but he had a 92.2% chance of scoring 
 better (better luck next year Brant).
 * The playoff teams were about as expected except for burgertownthicnred 
 sliding into the playoffs with a 30.5% chance and kicking therealfergus to the
@@ -1083,4 +1083,6 @@ playoffs.
 
 ### End
 
-Let me know what you guys think about this and if you want to see anything else.
+We can see the way the schedule shakes out can a have a pretty wild impact on 
+the final rankings. Let me know what you guys think about this and if you want 
+to see anything else.
