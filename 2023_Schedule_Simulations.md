@@ -791,7 +791,9 @@ losers bracket despite his 62.8% chance.
   </tbody>
 </table>
 
+
 For you visual minded guys, here's a chart of the previous table:
+
 
 <iframe
   src="Visualizations/2023Probabilities.html"
@@ -800,5 +802,285 @@ For you visual minded guys, here's a chart of the previous table:
   frameborder="0"
 ></iframe>
 
+## Some Interesting Rankings
+ 
+Here are some interesting rankings from all ten million simulations. The columns
+in these tables are given:
 
+* The Chance >= column contains the percentage of simulations in which that team
+placed greater than or equal to their given ranking. 
+* The Playoff column contains the percentage of simulations in which that team
+made the playoffs
 
+#### Most Common Ranking 
+
+The most common ranking order appeared 15,053 times:
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Rank</th>
+      <th>Username</th>
+      <th>Chance &gt;=</th>
+      <th>Playoff</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>herbietime</td>
+      <td>51.91110</td>
+      <td>99.49</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>thezirconisdragon</td>
+      <td>42.45852</td>
+      <td>96.14</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>alecwilson</td>
+      <td>59.42196</td>
+      <td>96.24</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>pacc</td>
+      <td>82.67119</td>
+      <td>96.59</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>therealfergus</td>
+      <td>41.78628</td>
+      <td>62.80</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>empireyikesback</td>
+      <td>68.44311</td>
+      <td>68.44</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>burgertownthicnred</td>
+      <td>53.91343</td>
+      <td>30.44</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>mackjyers21</td>
+      <td>76.38372</td>
+      <td>34.96</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>shakylegs</td>
+      <td>57.25153</td>
+      <td>7.50</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>namebrant</td>
+      <td>68.99480</td>
+      <td>5.02</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>tonygordzilla22</td>
+      <td>90.98705</td>
+      <td>2.24</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>black8yellownation</td>
+      <td>100.00000</td>
+      <td>0.12</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Unlikely top 3
+
+In this ranking, mackjeyers, burgertownthicnred, and shakylegs take the top
+spots despite each having a less than one percent chance of doing so. 
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Rank</th>
+      <th>Username</th>
+      <th>Chance &gt;=</th>
+      <th>Playoff</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>mackjyers21</td>
+      <td>0.29770</td>
+      <td>34.96</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>burgertownthicnred</td>
+      <td>0.63209</td>
+      <td>30.44</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>shakylegs</td>
+      <td>0.38048</td>
+      <td>7.50</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>herbietime</td>
+      <td>95.58877</td>
+      <td>99.49</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>alecwilson</td>
+      <td>90.68135</td>
+      <td>96.24</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>pacc</td>
+      <td>96.58791</td>
+      <td>96.59</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>thezirconisdragon</td>
+      <td>98.25850</td>
+      <td>96.14</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>therealfergus</td>
+      <td>89.60008</td>
+      <td>62.80</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>empireyikesback</td>
+      <td>97.45993</td>
+      <td>68.44</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>namebrant</td>
+      <td>68.99480</td>
+      <td>5.02</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>tonygordzilla22</td>
+      <td>90.98705</td>
+      <td>2.24</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>black8yellownation</td>
+      <td>100.00000</td>
+      <td>0.12</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Lopsided Playoffs
+
+Here, we have the bottom three teams in terms of playoff chances all making the
+playoffs. 
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Rank</th>
+      <th>Username</th>
+      <th>Chance &gt;=</th>
+      <th>Playoff</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>herbietime</td>
+      <td>51.91110</td>
+      <td>99.49</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>pacc</td>
+      <td>36.62561</td>
+      <td>96.59</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>thezirconisdragon</td>
+      <td>63.62777</td>
+      <td>96.14</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>namebrant</td>
+      <td>0.63411</td>
+      <td>5.02</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>tonygordzilla22</td>
+      <td>0.72256</td>
+      <td>2.24</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>black8yellownation</td>
+      <td>0.12402</td>
+      <td>0.12</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>alecwilson</td>
+      <td>98.68242</td>
+      <td>96.24</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>empireyikesback</td>
+      <td>93.02522</td>
+      <td>68.44</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>burgertownthicnred</td>
+      <td>89.55127</td>
+      <td>30.44</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>therealfergus</td>
+      <td>98.72289</td>
+      <td>62.80</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>mackjyers21</td>
+      <td>99.27435</td>
+      <td>34.96</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>shakylegs</td>
+      <td>100.00000</td>
+      <td>7.50</td>
+    </tr>
+  </tbody>
+</table>
+
+### End
+
+Let me know what you guys think about this and if you want to see anything else.
