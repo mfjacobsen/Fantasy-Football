@@ -41,6 +41,8 @@ tr:nth-child(odd) td:first-child {
 
 # 2023 Simulated Schedules
 
+See the [2022 Simulated Schedules](../../2022SimulatedSchedules/docs/2022_Schedule_Simulations.md)
+
 ## Introduction
 
 With the 2024 season coming up, let's look back at last season and see how 
