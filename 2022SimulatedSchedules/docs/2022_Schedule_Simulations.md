@@ -588,7 +588,7 @@ Aggregating the previous table gives us a better picture.
 
 * Burgertownthicnred took 1st place, with only a 1.3% chance, and had a 98.7%
 chance of placing worse.
-* Empireyikesback took 7th, and had a 93.9% chance of placing worse.
+* Empireyikesback took 7th and had a 93.9% chance of placing worse.
 * Blackandyellownation took 10th and had a 83.4% chance of placing better.
 * Herbietime took 3rd and had an 81.9% chance of placing better.
 
