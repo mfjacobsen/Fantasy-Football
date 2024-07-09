@@ -156,12 +156,11 @@ Here are the results of the 2022 Season
 These are the raw counts from the 10 million simulations. Some interesting notes:
 
 * Every team except herbietime could have placed last, who's lowest ranking
-in the simulation was 7th.
+in the simulations was 7th.
 * Every team could have placed first
 
-There could be schedules were herbietime placed last or blackandyellownation
-placed first. However, they didn't occur in the 10 million simulations performed
-here.
+There could be schedules were herbietime placed lower than 7th, but they didn't 
+occur in these 10 million simulated schedules.
 
 <table border="1" class="dataframe">
   <thead>
@@ -814,8 +813,8 @@ The most common ranking order appeared 16,515 times:
 
 #### Unlikely Top 3
 
-In this ranking, burgertownthicnred, shakylegs, and pacc beat the odds to take 
-the tops spots.
+In this ranking, burgertownthicnred, shakylegs, and pacc all beat the odds to 
+take the tops spots.
 
 <table border="1" class="dataframe">
   <thead>
